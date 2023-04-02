@@ -1,0 +1,63 @@
+.section {
+    width: 100%;
+    height: 420px;
+    background-color: #1f2029;
+    border-bottom: 1px solid deeppink;
+}
+.section .title  {
+    height: 50px;
+    width: 100%;
+    background-color: #6357a8;
+}
+.section .title .list {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    height: 100%;
+
+}
+.section .hero-container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card-container {
+   background-color: #fff;
+   width: 400px;
+   overflow: hidden;
+   box-shadow: #141212 0 5px 16px;
+}
+.img-container img {
+   overflow: hidden;
+   height: 200px;
+}
+.card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-title {
+    margin-bottom: 0.5rem;
+}
+.btn-knowmore {
+    display: flex;
+    justify-content: center;
+}
+.btn-knowmore button {
+    padding: 0.5rem;
+    background-color: #6357a8;
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.btn-knowmore button:hover {
+    background-color: rgb(27, 156, 252, 0.1);
+    transform: scale(1.2);
+}

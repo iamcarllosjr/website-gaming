@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: 'Sofia Sans', sans-serif;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  //a cada 1 rem será considerado 10px
+}
+
+html, body {
+  height: 100%;
+}
+
+

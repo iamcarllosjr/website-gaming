@@ -1,0 +1,19 @@
+.container {
+    max-width: 100%;
+    padding-top: 60px;
+    height: 420px;
+    position: relative;
+}
+.swiper {
+    position: absolute;
+    height: 100%;   
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 940px) {
+   .container {
+    height: 230px;
+   }
+}
