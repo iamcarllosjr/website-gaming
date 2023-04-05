@@ -8,13 +8,7 @@ const Cards = () => {
     return (
         <section className="section">
                 <div className="title">
-                    <ul className="list">
-                        <li>Release</li>
-                        <li>Release</li>
-                        <li>Release</li>
-                        <li>Release</li>
-                        <li>Release</li>
-                    </ul>
+                    <h1>Top Games</h1>
                 </div>
             <div className="hero-container">
 

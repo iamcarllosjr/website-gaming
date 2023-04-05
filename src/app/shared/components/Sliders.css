@@ -3,6 +3,7 @@
     padding-top: 60px;
     height: 420px;
     position: relative;
+    box-shadow: #141212 0 5px 16px;
 }
 .swiper {
     position: absolute;
