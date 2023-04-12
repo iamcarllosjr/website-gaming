@@ -8,7 +8,6 @@ const Footer = () => {
             <div className="row">
                 <div className="col">
                     <img src="" className="logo" alt="logo" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor corporis quos officia rerum facere.</p>
                 </div>
 
                 <div className="col">
@@ -32,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div className="col">
                     <h3>Newsletter</h3>
-                    <form>
+                    <form className="form">
                         <i className="far"><FaEnvelope/></i>
                         <input type="email" placeholder="Enter your email" required/>
                         <button type="submit"><i className="fas"><FaArrowRight/></i></button>

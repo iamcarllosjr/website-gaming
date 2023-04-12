@@ -2,7 +2,7 @@
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    background: #181c44;
+    background: #0b0e2e;
     height: 7rem;
     padding: 1.5rem;
     position: fixed;
@@ -60,7 +60,7 @@
     text-align: center;
     top: 7rem;
     right: 0;
-    background-color: #1f2029;
+    background-color: #0b0e2e;
     height: 0px;
     transition: .5s ease-in-out;
     z-index: 1000;

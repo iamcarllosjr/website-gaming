@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     position: absolute;
-    background-color: #1f2029;
+    background-color: #0b0e2e;
     color: #fff;
     padding: 50px 0;
     font-size: 13px;
@@ -47,7 +47,7 @@ ul li a {
     color: #fff;
 }
 
-form {
+.form {
     padding-bottom: 15px;
     display: flex;
     justify-content: space-between;

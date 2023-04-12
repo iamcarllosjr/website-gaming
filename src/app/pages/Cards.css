@@ -1,25 +1,34 @@
-.section {
+.section-cards {
     width: 100%;
-    height: 90vh;
+    height: 500px;
     background-color: #181c44;
+    border-bottom: 1px solid #fff;
 }
-.section .title  {
+.section-cards .title  {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section .title h1 {
+.section-cards .title h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 15px;
 }
 .card-container {
    background-color: #fff;
    width: 400px;
    overflow: hidden;
    box-shadow: #141212 0 5px 16px;
-   border-radius: 6px;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
 }
 .img-container img {
    overflow: hidden;
@@ -52,72 +61,15 @@
     
 }
 
-/* CARD GRID */
-.section .hero-container {
-    padding-top: 10px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 25px;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-}
-.hero-container .card-1 {
-    grid-column-start: 1;
-    grid-row-start: 1;
-}
-.hero-container .card-2 {
-    grid-column-start: 2;
-    grid-row-start: 1;
-}
-.hero-container .card-3 {
-    grid-column-start: 3;
-    grid-row-start: 1;
-}
-.hero-container .card-4 {
-    grid-column-start: 1;
-    grid-row-start: 2;
-}
-.hero-container .card-5 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
-.hero-container .card-6 {
-    grid-column-start: 3;
-    grid-row-start: 2;
+@media(max-width: 990px) {
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 25px;
+        }  
 }
 
-@media(max-width: 1115px) {
-    .section .hero-container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(3, auto);
-        grid-gap: 25px;
-    }
-    .hero-container .card-1 {
-        grid-column-start: 1;
-        grid-row-start: 1;
-    }
-    .hero-container .card-2 {
-        grid-column-start: 2;
-        grid-row-start: 1;
-    }
-    .hero-container .card-3 {
-        grid-column-start: 1;
-        grid-row-start: 2;
-    }
-    .hero-container .card-4 {
-        grid-column-start: 2;
-        grid-row-start: 2;
-    }
-    .hero-container .card-5 {
-        grid-column-start: 1;
-        grid-row-start: 3;
-    }
-    .hero-container .card-6 {
-        grid-column-start: 2;
-        grid-row-start: 3;
-    }
-};
+
+
+

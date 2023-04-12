@@ -1,6 +1,6 @@
 import { Navbar, Sliders, Footer } from "../shared/components";
 import "./Home.css"
-import Next from "./Next";
+import Form from "./Form";
 import Cards from "./Cards";
 import News from "./News";
 
@@ -11,9 +11,9 @@ const Home = () => {
 
            <div className="home">
               <Sliders />
-              {/* <Next /> */}
               <Cards />
               <News />
+              <Form />
               <Footer />
 
               
